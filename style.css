@@ -1,0 +1,124 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    box-sizing: border-box;}
+
+    nav {
+        margin-top: 2rem;
+        
+    }
+
+    nav a:hover{
+        border-bottom: 1px solid black;
+        transition: 0.5s ;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        margin-right: 3rem;
+        
+        
+    }
+    .ovalo{
+        text-align: center;
+        width: 15rem;
+        height: 3rem;
+        background-color: gainsboro;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px;
+        padding-top: 0.8rem;
+    }
+    
+    .titulo{
+        text-align: center;
+        border-bottom: 1px solid black;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+
+
+    main{
+        display: flex;
+        justify-content: space-between;
+    }
+    .pizza{
+        display: block;
+        width: 30%;
+    }
+
+    .menu{
+        width: 60%;
+        
+
+    }
+
+    .carrito{
+        width: 100%;
+    }
+
+
+
+    .carrito{
+        text-align: center;
+        background-color: lightgrey;
+        border: 1px solid black;
+        width: 20%;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px;
+    }
+    .carrito:hover{
+        box-shadow: 0px 0px 0px;
+        transition: 0.1s;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        margin: 4rem;
+    }
+    p{
+        font-family: 'Ubuntu', sans-serif;
+    }
+    h1{
+        font-family: 'Playfair Display', serif;
+    }
+
+    @media screen and (max-width: 800px) {
+
+        header{
+            display: block;
+            text-align: center;
+        }
+        nav{
+            display: block;
+            width: 100%;
+        }
+        .ovalo{
+            display: none;
+        }
+        main{
+            display: block;
+        }
+        .pizza{
+            width: 100%;
+        }
+        .menu{
+            width: 100%;
+            text-align: center;
+        }
+        .carrito{
+            width: 100%;
+        }
+
+
+    }
